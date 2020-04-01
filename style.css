@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+body{
+    font-family: quicksand, sans-serif;;
+    font-size: 15px;
+    color:#333;
+    text-align: center;
+    line-height: 2em;
+}
+
+h1{
+  color: blue;
+  font-size: 40px;  
+}
+@media(max-width: 460px){
+   #main{
+       margin: 0;
+   }
+
+}
+
+#main{
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px auto;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    /* float: center; */
+    margin: 0 auto;
+}
+#img-div{
+    background: white;
+    padding: 20x;
+}
+#img-caption{
+    margin: 0;
+}
